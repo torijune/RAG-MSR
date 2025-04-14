@@ -1,0 +1,72 @@
+[
+  {
+    "Query ID": "PLAIN-2",
+    "nDCG@1": 1.0,
+    "nDCG@3": 1.0,
+    "nDCG@5": 1.0,
+    "nDCG@10": 1.0
+  },
+  {
+    "Query ID": "PLAIN-12",
+    "nDCG@1": 0.0,
+    "nDCG@3": 0.6934264036172708,
+    "nDCG@5": 0.6934264036172708,
+    "nDCG@10": 0.6934264036172708
+  },
+  {
+    "Query ID": "PLAIN-23",
+    "nDCG@1": 0.0,
+    "nDCG@3": 0.0,
+    "nDCG@5": 0.0,
+    "nDCG@10": 0.0
+  },
+  {
+    "Query ID": "PLAIN-33",
+    "nDCG@1": 1.0,
+    "nDCG@3": 1.0,
+    "nDCG@5": 1.0,
+    "nDCG@10": 1.0
+  },
+  {
+    "Query ID": "PLAIN-44",
+    "nDCG@1": 0.0,
+    "nDCG@3": 0.0,
+    "nDCG@5": 0.4306765580733929,
+    "nDCG@10": 0.4306765580733929
+  },
+  {
+    "Query ID": "PLAIN-56",
+    "nDCG@1": 1.0,
+    "nDCG@3": 1.0,
+    "nDCG@5": 1.0,
+    "nDCG@10": 1.0
+  },
+  {
+    "Query ID": "PLAIN-68",
+    "nDCG@1": 1.0,
+    "nDCG@3": 1.0,
+    "nDCG@5": 1.0,
+    "nDCG@10": 1.0
+  },
+  {
+    "Query ID": "PLAIN-78",
+    "nDCG@1": 0.0,
+    "nDCG@3": 0.0,
+    "nDCG@5": 0.0,
+    "nDCG@10": 0.0
+  },
+  {
+    "Query ID": "PLAIN-91",
+    "nDCG@1": 1.0,
+    "nDCG@3": 1.0,
+    "nDCG@5": 1.0,
+    "nDCG@10": 1.0
+  },
+  {
+    "Query ID": "PLAIN-102",
+    "nDCG@1": 1.0,
+    "nDCG@3": 1.0,
+    "nDCG@5": 1.0,
+    "nDCG@10": 1.0
+  }
+]
