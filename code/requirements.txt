@@ -1,0 +1,10 @@
+langchain
+langchain_community
+langchain_ollama
+openai
+dotenv
+scikit-learn
+beir 
+sentence-transformers 
+transformers 
+faiss-cpu
