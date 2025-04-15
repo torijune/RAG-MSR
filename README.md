@@ -155,6 +155,12 @@ ensuring that only high-confidence and contextually aligned knowledge is used in
 We evaluate our RAG-MSR framework on the BEIR benchmark, specifically using the nfcorpus dataset.  
 Retrieval performance is measured by nDCG@k (k=1,3,5,10).
 
+For the experiments, we **randomly sample 10 queries** from the BEIR - nfcorpus dataset  
+to analyze the effectiveness of multi-step reformulation and reranking in real-world information-seeking scenarios.
+
+This experimental setting allows us to qualitatively and quantitatively evaluate how RAG-MSR handles diverse query types,  
+including short keyword-based queries and long natural language questions.
+
 <p align="center">
   <img src="Figure/RAG-MSR_nDCG@k.png" width="65%">
 </p>
