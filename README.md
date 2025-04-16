@@ -63,8 +63,8 @@ These reformulation prompts enable the LLM to generate diverse and aspect-rich q
 
 We retrieve $n$ documents independently for each reformulated query using a dense retrieval pipeline.
 
-Each reformulated query is embedded using OpenAI's **text-embedding-3-small** model,  
-and cosine similarity is computed with a pre-embedded document corpus(BEIR - nfcorpus) to identify relevant candidates.
+Each reformulated query and benchmark dataset are embedded using OpenAI's **text-embedding-3-small** model,  
+and cosine similarity is computed with a pre-embedded benchamark dataset (BEIR - nfcorpus) to identify relevant candidates.
 
 The **top-5** documents with the highest similarity scores are selected as initial retrieval results for each query.  
 This simple yet effective retrieval method enables flexibility in handling diverse reformulation types without requiring a dedicated retriever model.
